@@ -1,0 +1,11 @@
+*.pyc
+*.swp
+*egg*/
+*~
+.coverage
+log/
+.idea/
+.cache/
+.DS_Store
+
+
