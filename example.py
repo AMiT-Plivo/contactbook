@@ -55,14 +55,14 @@ class ContactApi(object):
 
 contact = ContactApi()
 
+print('Post : ', contact.post(name='new11', email='new11@gmail', mobile=123452123))
+
 print('Search : ', contact.search(name='amit', email='test@plivo.com'))
 
 print('Update : ', contact.update(15, name='amit11', email='tes22@plivo.com', mobile=1234))
 
 print('Delete : ', contact.delete(15))
 
-print('Post : ', contact.post(name='new11', email='new11@gmail', mobile=123452123))
-
-print('Get All : ', contact.get())
+print('Get : ', contact.get())
 
 print('Jump to Page : ', contact.navigate_page(2))
