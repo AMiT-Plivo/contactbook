@@ -8,5 +8,4 @@ router.register('contact', views.ContactView)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('auth/', include('rest_auth.urls')),
 ]
