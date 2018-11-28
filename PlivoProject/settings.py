@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'plivoproject',
         'USER': 'contactbook',
         'PASSWORD': 'root',
-        'HOST': '',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
