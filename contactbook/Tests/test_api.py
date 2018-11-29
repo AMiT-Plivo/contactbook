@@ -1,5 +1,6 @@
 import unittest
 from contact_api import ContactApi
+from time import sleep
 
 
 class ModelTestCase(unittest.TestCase):
