@@ -3,11 +3,11 @@ import json
 
 local_token = 'f9ca5cbb5d1972e7343152ab27cbe5950a93c693'
 token_aws = '9ec887751893e44f37e06e151c8f6042d2dcdd09'
-token = local_token
+token = token_aws
 
 aws_url = 'http://13.232.5.70:8000'
 local_url = 'http://127.0.0.1:8000'
-base_url = local_url
+base_url = aws_url
 
 
 class ContactApi(object):
